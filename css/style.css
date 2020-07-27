@@ -1,11 +1,13 @@
 body {
   font-family: 'Gilroy';
-  
+  color: #333333;
 }
 
-.wrapper-1{
+/* CONTAINER */
+
+.container-1180{
   width: 100%;
-  max-width: 1560px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
@@ -16,6 +18,10 @@ header{
   align-items: center;
   justify-content: space-between;
   height: 112px;
+  width: 100%;
+  max-width: 1560px;
+  margin: 0 auto;
+  
 }
 
 .menu{
@@ -33,7 +39,13 @@ header{
   line-height: 16px;
 }
 
-.calculate_btn{
+.menu_link:hover{
+  color: #3454F5;
+  transition: linear .3s;
+}
+
+.white_btn{
+  text-decoration: none;
   padding: 12px 40px;
   border: 2px solid #333333;
   text-align: center;
@@ -42,11 +54,17 @@ header{
   font-size: 14px;
 }
 
-.smpl_dev{
-  margin-left: 198px;
+.simple_dev{
+  width: 100%;
+  max-width: 1560px;
+  height: 735px;
+  margin: 0 auto;
+  background: url(../img/main_bg.jpg) center center /cover no-repeat;
+  margin-bottom: 100px;
 }
 
 .main_title{
+  margin-left: 198px;
   max-width: 600px;
   font-weight: bold;
   font-size: 64px;
@@ -56,17 +74,19 @@ header{
 }
 
 .dev_dscr{
+  margin-left: 198px;
   max-width: 567px;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  color: #333333;
   margin-bottom: 46px;
 }
 
-.calculate_btn2{
+.blue_btn{
+  margin-left: 198px;
+  text-decoration: none;
   padding: 24px 80px;
-  background: #3454F5;
+  background: #3454f5;
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
@@ -75,15 +95,76 @@ header{
   line-height: 24px;
 }
 
-.main_bg{
-  background: url(../img/main_bg.jpg) center center /cover no-repeat;
-  height: 735px;
+/* INTERNET FOR BUISSNES */
+
+.title_internet{
+  max-width: 630px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 25px;
 }
 
-/* Internet for buisness */
-
-.wrapper-2{
-  width: 100%;
-  max-width: 1180px;
-  margin: 0 auto;
+.internet_dscr{
+  max-width: 485px;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 50px;
 }
+
+.main_info{
+  display: flex;
+}
+
+.tsekh_img img{
+  margin: 0 204px 0 -211px;
+}
+
+.reason_item_1{
+  max-width: 463px;
+}
+
+.reason_ico_1,
+.reason_ico_2{
+  margin-bottom: 23px;
+}
+
+.reason_ico_2,
+.reason_ico_3,
+.reason_ico_4{
+  margin-left: 38px;
+  margin-bottom: 23px;
+}
+
+.reason_title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 15px;
+  margin-left: 38px;
+}
+
+.reason_dscr{
+  min-width: 463px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 38px;
+  margin-bottom: 79px;
+}
+
+.reason_dscr_2, 
+.reason_dscr_3, 
+.reason_dscr_4{
+  min-width: 480px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 38px;
+  margin-bottom: 79px;
+}
+
+.reason_dscr_4{
+  margin-bottom: 183px;
+}
+
